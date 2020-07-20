@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteBase /
+php_value default_charset utf-8
+
+RewriteEngine On
+
+# правило сработает только тогда когда нет физического файла или папки
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# правило перенаправление на index.php
+RewriteRule . index.php
