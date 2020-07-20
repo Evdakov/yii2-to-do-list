@@ -13,6 +13,10 @@ git clone https://github.com/Evdakov/yii2-to-do-list.git your_project_folder
     https://getcomposer.org/download/
 </p>
 
+<p>
+Переходим в папку проекта
+</p>
+
 Загружаем зависимости
 ```
 composer update
